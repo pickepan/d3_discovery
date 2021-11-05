@@ -1,5 +1,9 @@
 body { font-family: Arial; }
 
+.bar {
+    fill: green;
+}
+
 svg rect {
 	fill: gray;
 }

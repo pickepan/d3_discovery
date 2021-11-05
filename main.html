@@ -2,17 +2,25 @@
 <html>
    <head>
       <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+      <script src = "https://d3js.org/d3-path.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-color.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-dispatch.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-ease.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-interpolate.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-selection.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-timer.v1.min.js"></script>
+      <script src = "https://d3js.org/d3-transition.v1.min.js"></script>
 	  <link rel="stylesheet" href="style.css">
    </head>
 
    <body>
       <div class = "myclass">
-         Hello World!
+         <h1> Hello World!  </h1>
       </div>
       <h2> Shapes </h2>
 	   <div id = "svgcontainer">
          <svg width = "300" height = "300">
-            <line x1 = "100" y1 = "100" 
+            <line x1 = "100" y1 = "100"
                x2 = "200" y2 = "200" style = "stroke:rgb(255,0,0);
                stroke-width:2"/>
          </svg>
@@ -23,10 +31,21 @@
 
       <script type="text/javascript" src="shapes.js"></script>
 
-      <h2> Bar shart </h2>
-	  <script type="text/javascript" src="bar_chart.js"></script>
+      <h2> Horizontal bar shart </h2>
+	  <script type="text/javascript" src="horizontal_bar_chart.js"></script>
 
-      <h2> Line graph </h2>
-      <script type="text/javascript" src="line_graph.js"></script>
+      <h2> Vertical bar shart </h2>
+      <div id = "barchartcontainer">
+         <svg width = "00" height = "00"></svg>
+      </div>
+      <script type="text/javascript" src="vertical_bar_chart.js"></script>
+
+<!--      <h2> Line graph </h2>-->
+<!--      <div id = "linegraph">-->
+<!--         <svg width = "00" height = "00"></svg>-->
+<!--      </div>-->
+<!--      <script type="text/javascript" src="line_graph.js"></script>-->
+
+
    </body>
 </html>

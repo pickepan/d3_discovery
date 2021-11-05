@@ -1,5 +1,7 @@
 d3.select(".myclass").style("color", "red"); //colorize text in red
-d3.selectAll(".myclass").transition().style("color","green").duration(5000); //change it to green
+d3.selectAll(".myclass").transition().style("color","green").duration(5000).delay(6000)
+                                                                              .style("fill", "blue")
+                                                                              .remove(); //change it to green
 		 
 var width = 300;
 var height = 300;
