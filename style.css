@@ -5,7 +5,13 @@ svg rect {
 }
 
 svg text {
-	fill: yellow;
+	fill: blue;
 	font: 12px sans-serif;
 	text-anchor: end;
+}
+
+.line {
+   fill: none;
+   stroke: green;
+   stroke-width: 5px;
 }
